@@ -25,6 +25,8 @@ public class Main {
                 textCounter++;
                 int number = scanner.nextInt();
                 sumOfValuesEntered += number;
+            } else {
+                System.out.println("Invalid number");
             }
             scanner.nextLine();
         }
